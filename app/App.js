@@ -32,11 +32,23 @@ function executeAnalyzePage() {
   });
 }
 
+function executeShellCommand() {
+  var sys = require('sys')
+  var exec = require('child_process').exec;
+
+  exec(cmdParams.cmd, function(error, stdout, stderr) {
+    sys.print(stdout);
+  });
+}
+
 switch (cmdName) {
   case 'DownloadSite':
     executeDownloadSite();
     break;
   case 'AnalyzePage':
     executeAnalyzePage();
+    break;
+  case 'Shell':
+    executeShellCommand();
     break;
 }
