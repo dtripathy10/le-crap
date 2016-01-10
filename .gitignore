@@ -1,7 +1,7 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
-/dist
+/data
 /tmp
 
 # dependencies
@@ -20,5 +20,5 @@ coverage.json
 #build
 
 #sublime
-wordo.sublime-workspace
+le-crap.sublime-workspace
 .DS_Store
