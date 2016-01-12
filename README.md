@@ -19,3 +19,9 @@ node app/App.js AnalyzePage --url="https://www.etsy.com/search?q=knit" --selecto
 ```bash
 node app/App.js Shell --cmd="curl -vLo test.zip https://github.com/dtripathy10/le-crap/archive/master.zip"
 ```
+
+##### Search keyword using Google
+
+```bash
+casperjs test app/scrapper/ScrapGoogle.js
+```
