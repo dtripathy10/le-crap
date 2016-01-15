@@ -25,3 +25,9 @@ node app/App.js Shell --cmd="curl -vLo test.zip https://github.com/dtripathy10/l
 ```bash
 casperjs test app/scrapper/ScrapGoogle.js
 ```
+
+##### Enviroment Setup
+
++ ```sudo npm -g install phantomjs@1.9.7-15```
+
+
